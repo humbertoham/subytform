@@ -1,0 +1,11 @@
+{
+  "name": "Ambulancias SUBYT Formulario",
+  "short_name": "Formulario",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

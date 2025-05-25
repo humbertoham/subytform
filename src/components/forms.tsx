@@ -343,7 +343,7 @@ let currentY2 = h2 - margin - logoHeight;
 
 
 // Add title
-page2.drawText('AmbulanciasTVR - Reporte Médico', {
+page2.drawText('Ambulancias SUBYT- Reporte Médico', {
   x: margin,
   y: currentY2,
   size: 24,
@@ -513,7 +513,7 @@ let currentY3 = h3 - margin3 - logoHeight3;
 
 
 // Add title
-page3.drawText('AmbulanciasTVR - Reporte Médico', {
+page3.drawText('Ambulancias SUBYT - Reporte Médico', {
   x: margin3,
   y: currentY3,
   size: 24,
@@ -739,7 +739,7 @@ if (selectedFile) {
 
   return (
     <motion.div className="p-4 max-w-3xl pb-6 mx-auto bg-white shadow-md rounded-2xl" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-      <h1 className="text-2xl font-bold mb-4">Formulario de Paciente - Ambulancias TVR</h1>
+      <h1 className="text-2xl font-bold mb-4">Formulario de Paciente - Ambulancias SUBYT</h1>
 
       {/* Campos del formulario */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
